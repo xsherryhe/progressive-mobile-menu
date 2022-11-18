@@ -1,12 +1,12 @@
 {
   "name": "@xsherryhe/progressive-mobile-menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A module for creating a progressive menu bar suitable for mobile layouts.",
   "main": "progressive-mobile-menu.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["progressive", "menu", "mobile", "dom"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
