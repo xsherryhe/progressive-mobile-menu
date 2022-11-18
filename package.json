@@ -1,0 +1,19 @@
+{
+  "name": "@xsherryhe/progressive-mobile-menu",
+  "version": "1.0.0",
+  "description": "A module for creating a progressive menu bar suitable for mobile layouts.",
+  "main": "progressive-mobile-menu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "2.7.1"
+  }
+}

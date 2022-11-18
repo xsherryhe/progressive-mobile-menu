@@ -1,0 +1,33 @@
+.progressive-menu {
+  display: grid;
+  position: relative;
+}
+
+.progressive-menu-item, .progressive-menu-more-button {
+  cursor: pointer;
+}
+
+.progressive-menu-more-button .icon {
+  font-size: 0.5rem;
+}
+
+.progressive-menu > .progressive-menu-item, .progressive-menu-more-button {
+  grid-row: 1;
+}
+
+.progressive-menu-more-button {
+  grid-column: -2;
+}
+
+.progressive-menu-more-container {
+  grid-column: -3 / span 2;
+  grid-row: 2;
+  z-index: 1;
+  justify-self: end;
+  position: absolute;
+  top: 0;
+}
+
+.progressive-menu-more-container.hidden {
+  display: none;
+}

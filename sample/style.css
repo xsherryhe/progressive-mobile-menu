@@ -1,0 +1,25 @@
+.menu-one {
+  border-top: 5px solid black;
+  margin: 0.5rem;
+}
+
+.menu-one-item, .menu-one .progressive-menu-more-button {
+  background-color: white;
+  color: rgb(75, 75, 75);
+  font-family: 'Helvetica', 'sans-serif';
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-bottom: 2px solid lightgray;
+  border-top: none;
+  border-left: 0.5px solid lightgray;
+  border-right: 0.5px solid lightgray;
+  text-align: center;
+}
+
+.menu-one > .menu-one-item:first-child {
+  border-left: none;
+}
+
+.menu-one .progressive-menu-more-button {
+  border-right: none;
+}
