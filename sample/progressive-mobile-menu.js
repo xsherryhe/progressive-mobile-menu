@@ -17,6 +17,7 @@ function progressiveMobileMenu(menu, { menuItemWidth = 70 } = {}) {
   );
 
   function setProgressiveMoreItems() {
+    moreButton.classList.remove('hidden');
     menuItems.forEach((menuItem) => {
       menuItem.classList.remove('more');
       moreButton.insertAdjacentElement('beforebegin', menuItem);
@@ -25,8 +26,15 @@ function progressiveMobileMenu(menu, { menuItemWidth = 70 } = {}) {
     const numItems = Math.floor(menu.offsetWidth / menuItemWidth);
     menu.setAttribute(
       'style',
-      `grid-template-columns: repeat(${numItems}, 1fr);`
+      `grid-template-columns: repeat(${
+        menuItems.length <= numItems ? menuItems.length : numItems
+      }, 1fr);`
     );
+    if (menuItems.length <= numItems) {
+      moreButton.classList.add('hidden');
+      return;
+    }
+
     menuItems.slice(numItems - 1).forEach((menuItem) => {
       menuItem.classList.add('more');
       moreContainer.append(menuItem);

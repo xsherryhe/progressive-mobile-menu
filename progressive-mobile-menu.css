@@ -28,6 +28,7 @@
   top: 0;
 }
 
+.progressive-menu-more-button.hidden,
 .progressive-menu-more-container.hidden {
   display: none;
 }
