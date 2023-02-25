@@ -1,4 +1,10 @@
-This repository holds a custom npm package for creating a menu bar that progressively reveals menu items. This type of menu is suitable for a mobile layout;
+# Progressive Mobile Menu
+
+## Introduction
+
+This repository holds a custom npm package for creating a menu bar that progressively reveals menu items. This type of menu is suitable for a mobile layout.
+
+## Instructions
 
 To install this package:
 `npm install @xsherryhe/progressive-mobile-menu`
